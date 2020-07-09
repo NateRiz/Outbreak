@@ -1,9 +1,9 @@
 # Project-specific settings
 PROJECT := outbreak
 EMP_DIR := ../Empirical/source
-
+SGP_DIR := ../SignalGP/source/hardware/SignalGP
 # Flags to use regardless of compiler
-CFLAGS_all := -Wall -Wno-unused-function -std=c++17 -I$(EMP_DIR)/
+CFLAGS_all := -Wall -Wno-unused-function -std=c++17 -I$(EMP_DIR)/ -I$(SGP_DIR)/
 
 # Native compiler information
 CXX_nat := g++
